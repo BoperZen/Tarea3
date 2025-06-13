@@ -181,6 +181,11 @@ article.post {
         min-width: unset;
         max-width: unset;
     }
+    #logo img {
+        margin-top: 40px;
+        max-width: 600px;
+        max-height: 350px;
+    }
     #principalcontent {
         flex-direction: column;
         gap: 0;
@@ -201,6 +206,30 @@ article.post {
     #footer {
         flex-direction: column;
         text-align: center;
+    }
+    #secondarycontent #content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #secondarycontent img {
+        margin-top: 40px; /* Espacio arriba de la imagen */
+        order: 1;         /* Imagen primero */
+    }
+    #secondarycontent p {
+        order: 2;         /* Texto después */
+        margin-top: 20px; /* Espacio entre imagen y texto */
+        text-align: center;
+    }
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #content\ header {
+        padding-left: 0;
+        margin-top: 18px;
     }
 }
 
