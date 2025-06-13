@@ -183,7 +183,7 @@ article.post {
     }
     #logo img {
         margin-top: 40px;
-        max-width: 600px;
+        max-width: 400px;
         max-height: 350px;
     }
     #principalcontent {
@@ -214,12 +214,14 @@ article.post {
         justify-content: center;
     }
     #secondarycontent img {
-        margin-top: 40px; /* Espacio arriba de la imagen */
-        order: 1;         /* Imagen primero */
+        margin-top: 40px;
+        order: 1;  
+        max-width: 400px;
+        max-height: 350px;
     }
     #secondarycontent p {
-        order: 2;         /* Texto después */
-        margin-top: 20px; /* Espacio entre imagen y texto */
+        order: 2;
+        margin-top: 20px;
         text-align: center;
     }
     #header {
