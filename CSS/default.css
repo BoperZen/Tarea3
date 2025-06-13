@@ -5,6 +5,9 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: #181818;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 /* Fondo principal */
@@ -174,7 +177,7 @@ article.post {
     font-size: 1em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #outer {
         width: 98%;
         padding: 5px;
@@ -183,8 +186,8 @@ article.post {
     }
     #logo img {
         margin-top: 40px;
-        max-width: 400px;
-        max-height: 350px;
+        max-width: 300px;
+        max-height: 150px;
     }
     #principalcontent {
         flex-direction: column;

@@ -39,7 +39,7 @@ a.principal:hover {
     border-color: #181818;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #container {
         display: flex;
         flex-wrap: wrap;
